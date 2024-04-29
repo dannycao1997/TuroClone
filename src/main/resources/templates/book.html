@@ -2,9 +2,89 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Book a Car - Danny's Garage</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body, h1 {
+            font-family: "Raleway", Arial, sans-serif;
+        }
+        h1 {
+            letter-spacing: 6px;
+        }
+        .w3-bar .w3-button {
+            color: white;
+            background-color: #333;
+        }
+        .w3-bar .w3-button.w3-light-grey {
+            background-color: #555; /* Highlight for active page */
+        }
+        .w3-container {
+            margin-top: 20px;
+        }
+        footer {
+            background-color: #f1f1f1;
+            color: #333;
+        }
+    </style>
 </head>
 <body>
+
+<div class="w3-content" style="max-width:1500px">
+
+    <!-- Navigation Bar -->
+    <div class="w3-bar w3-border">
+        <a href="index.html" class="w3-bar-item w3-button">Home</a>
+        <a href="fleet.html" class="w3-bar-item w3-button">Fleet</a>
+        <a href="book.html" class="w3-bar-item w3-button w3-light-grey">Book Now</a>
+        <a href="contact.html" class="w3-bar-item w3-button">Contact</a>
+    </div>
+
+    <!-- Header -->
+    <header class="w3-container w3-center w3-opacity" style="padding: 5px 16px">
+        <h1>Book Your Car</h1>
+        <p>Reserve your car quickly and easily using our online booking form.</p>
+    </header>
+
+    <!-- Booking Form -->
+    <div class="w3-container w3-padding-32">
+        <form action="submit_booking.php" method="POST">
+            <label for="car">Choose a Car:</label>
+            <select class="w3-select w3-border" name="car" id="car">
+                <option value="" disabled selected>Select your car</option>
+                <option value="nissan-gtr-r34">Nissan GT-R R34</option>
+                <option value="acura-nsx">Acura NSX</option>
+                <option value="nissan-gtr-r33">Nissan GT-R R33</option>
+                <option value="toyota-supra">Toyota Supra</option>
+            </select>
+
+            <label for="date-start" class="w3-margin-top">Pick-up Date:</label>
+            <input class="w3-input w3-border" type="date" id="date-start" name="date_start" required>
+
+            <label for="date-end">Return Date:</label>
+            <input class="w3-input w3-border" type="date" id="date-end" name="date_end" required>
+
+            <label for="full-name">Full Name:</label>
+            <input class="w3-input w3-border" type="text" id="full-name" name="full_name" placeholder="Enter your full name" required>
+
+            <label for="email">Email:</label>
+            <input class="w3-input w3-border" type="email" id="email" name="email" placeholder="Enter your email" required>
+
+            <button class="w3-button w3-black w3-section" type="submit">Submit Booking</button>
+        </form>
+    </div>
+
+    <!-- Footer -->
+    <footer class="w3-container w3-padding-64 w3-center w3-large">
+        <i class="fa fa-facebook-official w3-hover-opacity"></i>
+        <i class="fa fa-instagram w3-hover-opacity"></i>
+        <i class="fa fa-twitter w3-hover-opacity"></i>
+        <p>Powered by <a href="https://github.com/dannycao1997" target="_blank">Danny's Garage</a></p>
+    </footer>
+
+</div>
 
 </body>
 </html>

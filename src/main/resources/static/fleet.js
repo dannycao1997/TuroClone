@@ -14,7 +14,6 @@ document.addEventListener('DOMContentLoaded', function() {
                 carElement.innerHTML = `
                 <h3>${car.make} ${car.model}</h3>
                 <p>Year: ${car.year}</p>
-                <p>License Plate: ${car.licensePlate}</p>
             `;
                 fleetContainer.appendChild(carElement);
             });

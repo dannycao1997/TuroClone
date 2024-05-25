@@ -1,4 +1,4 @@
-# The JDMCarRentalApp
+# The JDM Car Rental App
 ## Explore the Thrill with Danny's Garage
 - Your ultimate destination for renting the finest JDM and exotic sports cars!
     <img src="https://cultofthepartyparrot.com/parrots/hd/githubparrot.gif" width="25" height="25"/>

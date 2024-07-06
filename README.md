@@ -1,4 +1,4 @@
-# Turo Clone / Car Rental App
+# Turo Clone / Premium Car Rental Platform
 ## Explore the Thrill with Danny's Garage
 - Your ultimate destination for renting the finest exotic sports cars!
     <img src="https://cultofthepartyparrot.com/parrots/hd/githubparrot.gif" width="25" height="25"/>

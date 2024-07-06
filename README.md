@@ -1,6 +1,6 @@
-# The JDM Car Rental App
+# Turo Clone / Car Rental App
 ## Explore the Thrill with Danny's Garage
-- Your ultimate destination for renting the finest JDM and exotic sports cars!
+- Your ultimate destination for renting the finest exotic sports cars!
     <img src="https://cultofthepartyparrot.com/parrots/hd/githubparrot.gif" width="25" height="25"/>
     <img src="https://cultofthepartyparrot.com/flags/hd/iranparrot.gif" width="25" height="25"/>
     <img src="https://cultofthepartyparrot.com/parrots/asyncparrot.gif" width="36" height="25"/>

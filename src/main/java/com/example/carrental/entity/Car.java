@@ -1,7 +1,5 @@
 package com.example.carrental.entity;
-
 import jakarta.persistence.*;
-
 
 @Entity
 @Table(name = "cars")

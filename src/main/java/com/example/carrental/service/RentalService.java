@@ -1,5 +1,4 @@
 package com.example.carrental.service;
-
 import com.example.carrental.entity.Rental;
 import com.example.carrental.repository.RentalRepository;
 import org.springframework.stereotype.Service;

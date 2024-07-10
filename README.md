@@ -1,6 +1,5 @@
-# Turo Clone: Premium Car Rental Platform
-## Engineered a platform for renting exotic and
-Japanese Domestic Market vehicles, catering to high-performance sports car enthusiasts. Delivered a seamless user experience with an efficient booking process, leading to increased user engagement and loyalty.
+# My Turo Clone: Premium Car Rental Platform
+Engineered a platform for renting exotic and Japanese Domestic Market vehicles, catering to high-performance sports car enthusiasts. Delivered a seamless user experience with an efficient booking process, leading to increased user engagement and loyalty.
 
 - Your ultimate destination for renting the finest exotic sports cars!
     <img src="https://cultofthepartyparrot.com/parrots/hd/githubparrot.gif" width="25" height="25"/>

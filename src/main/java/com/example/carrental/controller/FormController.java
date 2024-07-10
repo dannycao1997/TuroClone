@@ -24,4 +24,15 @@ public class FormController {
         return ResponseEntity.ok("Contact submitted successfully");
     }
 
+    @GetMapping("/booking")
+    public ResponseEntity<String> getBooking(){
+        return ResponseEntity.ok("Booking submitted successfully");
+    }
+
+    @GetMapping("/contact")
+    public ResponseEntity<String> getContact(){
+        return ResponseEntity.ok("Contact submitted successfully");
+    }
+
+
 }

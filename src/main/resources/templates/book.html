@@ -86,5 +86,35 @@
 
 </div>
 
+
+// API call to submit booking form data
+<script>
+    document.getElementById('booking-form').addEventListener('submit', function(event) {
+        event.preventDefault();
+
+        const formData = {
+            car: document.getElementById('car').value,
+            dateStart: document.getElementById('date-start').value,
+            dateEnd: document.getElementById('date-end').value,
+            fullName: document.getElementById('full-name').value,
+            email: document.getElementById('email').value,
+        };
+
+        fetch('/api/forms/booking', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify(formData),
+        })
+            .then(response => response.text())
+            .then(data => alert(data))
+            .catch(error => console.error('Error:', error));
+    });
+</script>
+
+
+
+
 </body>
 </html>

@@ -8,14 +8,9 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-@RequestMapping("/api/form")
+@RequestMapping("/api/forms")
 public class FormController {
 
-//    @Autowired
-//    private BookingService bookingService;
-//
-//    @Autowired
-//    private ContactService contactService;
 
     @PostMapping("/booking")
     public ResponseEntity<String> submitBooking(@RequestBody BookingForm bookingform){

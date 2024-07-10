@@ -37,6 +37,7 @@ public class FormControllerTest {
                         .contentType(MediaType.APPLICATION_JSON)
                         .content(objectMapper.writeValueAsString(bookingForm)))
                 .andExpect(status().isOk());
+
     }
 
     @Test

@@ -34,5 +34,4 @@ public class FormController {
         return ResponseEntity.ok("Contact submitted successfully");
     }
 
-
 }

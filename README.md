@@ -19,5 +19,4 @@ Turo Clone is built using the following technologies:
 - Heroku: Heroku is a cloud platform that lets companies build, deliver, monitor, and scale apps.
 - Postman: Postman is a collaboration platform for API development.
 - HTML: HTML is the standard markup language for documents designed to be displayed in a web browser.
-- CSS: CSS is a stylesheet language used for describing the presentation of a document written in HTML or XML.
 
